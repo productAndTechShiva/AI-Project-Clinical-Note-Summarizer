@@ -138,12 +138,6 @@ Voice Recording -> Speech-to-Text Transcription -> AI Summarization -> Structure
 
 # Technology Stack
 
-## Frontend
-
-* React
-* TypeScript
-* Vite
-
 ## Backend
 
 * Python
@@ -161,6 +155,12 @@ Voice Recording -> Speech-to-Text Transcription -> AI Summarization -> Structure
 ## Audio Capture
 
 * Browser MediaRecorder API
+
+## Frontend
+
+* React
+* TypeScript
+* Vite
 
 
 # Future Enhancements
