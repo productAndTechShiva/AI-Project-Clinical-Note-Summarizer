@@ -1,0 +1,3 @@
+{
+  "note": "Patient is a 55 year old male with chest pain for two days. History of hypertension and diabetes. ECG normal. Blood pressure 150/95. Stress test recommended. Follow up after one week."
+}
