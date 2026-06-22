@@ -2,166 +2,68 @@
 
 ## Overview
 
-AI Medical Documentation Assistant is an AI-powered healthcare documentation solution designed to help healthcare professionals convert unstructured clinical information into structured patient summaries.
-
-The application supports both text-based clinical notes and voice-recorded observations. Using speech-to-text transcription and Large Language Models (LLMs), the system extracts and organizes key clinical information into structured sections such as Patient Information, Medical History, Clinical Findings, and Recommendations.
-
-This project demonstrates how Generative AI can be used to improve healthcare documentation workflows while reducing administrative effort and maintaining clinician oversight.
-
+Built an AI-powered solution that converts clinical notes and voice-recorded observations into structured patient summaries. The application combines speech-to-text transcription and AI-driven summarization to generate Patient Information, Medical History, Clinical Findings and Recommendations.
 
 # Problem Statement
 
-Healthcare professionals spend a significant amount of time creating, updating, and reviewing clinical documentation.
+Healthcare professionals spend significant time on clinical documentation, leading to administrative overhead, inconsistent note quality and reduced time for patient care.
 
-Common challenges include:
-
-* Time-consuming manual note-taking
-* Inconsistent documentation formats
-* Difficulty extracting key clinical information
-* Administrative burden that reduces time available for patient care
-
-There is a need for a solution that can assist healthcare professionals by automatically converting unstructured notes and observations into structured, easy-to-review summaries.
-
-
-# Solution
-
-The AI Medical Documentation Assistant streamlines clinical documentation by:
-
-1. Accepting clinical notes entered manually.
-2. Supporting voice-recorded observations from healthcare professionals.
-3. Converting audio recordings into text using speech-to-text technology.
-4. Using AI-powered summarization to extract important clinical information.
-5. Generating structured summaries for easier review and follow-up.
-
-
-# Key Features
-
-## Clinical Note Summarization
-
-Transforms free-text clinical notes into structured summaries.
-
-## Voice Recording & Transcription
-
-Captures voice observations and converts them into text using speech-to-text technology.
-
-## Structured Information Extraction
-
-Organizes information into:
-
-* Patient Information
-* Medical History
-* Clinical Findings
-* Recommendations
-
-## AI-Assisted Documentation Workflow
-
-Reduces repetitive documentation effort while maintaining clinician control over the final output.
-
-## Local AI Deployment
-
-Runs entirely on locally deployed open-source AI models without relying on external AI APIs.
-
+# Key Capabilities:
+* Clinical note summarization using LLMs
+* Voice recording and speech-to-text transcription
+* Structured extraction of clinical information
+* AI-assisted documentation workflow
+* End-to-end workflow from capture to summary generation
+* Local deployment using open-source AI models
 
 # Example Use Cases
 
-## Doctor Consultation Documentation
+### Doctor Consultation Documentation
 
 Convert consultation notes into structured patient summaries.
 
-## Voice-Based Clinical Observations
+### Voice-Based Clinical Observations
 
 Record observations and automatically generate documentation.
 
-## Patient Visit Summaries
+### Patient Visit Summaries
 
 Create concise summaries for follow-up appointments.
 
-## Documentation Support
+### Documentation Support
 
 Assist healthcare professionals with routine documentation tasks and note preparation.
 
 
 # Business Value
 
-## Improved Productivity
-
-Reduces the time required for manual documentation.
-
-## Better Documentation Consistency
-
-Generates structured and standardized outputs.
-
-## Workflow Efficiency
-
-Accelerates documentation and review processes.
-
-## Practical Healthcare AI
-
-Demonstrates how Generative AI can support healthcare operations without replacing clinical decision-making.
-
+* Reduces manual documentation effort and administrative burden
+* Improves consistency and readability of clinical notes
+* Accelerates healthcare documentation workflows
+* Demonstrates practical application of Generative AI in healthcare operations
 
 # My Contribution
-
-## Product & Business Analysis
-
-* Identified healthcare documentation challenges and workflow gaps
-* Defined business requirements and user needs
-* Created use cases and workflow scenarios
-* Designed the AI-assisted documentation process
-
-## Solution Design
-
-* Designed the end-to-end application workflow
-* Defined AI summarization requirements
-* Designed structured output formats
-* Defined validation and error-handling requirements
-
-## Development & AI Implementation
-
-* Built the frontend and backend application
-* Integrated speech-to-text transcription
-* Developed prompt engineering strategy
-* Implemented structured summary generation
-* Tested and refined AI outputs
+* Defined requirements, use cases and AI workflow
+* Designed the solution architecture and user experience
+* Built the transcription and summarization pipeline
+* Developed prompts, structured output extraction and validation logic
+* Evaluated AI outputs and refined summary quality
 
 
 # Application Workflow
 
-## Text-Based Workflow
+### Text-Based Workflow
 
 Clinical Note -> AI Summarization -> Structured Clinical Summary
 
-## Voice-Based Workflow
+### Voice-Based Workflow
 
 Voice Recording -> Speech-to-Text Transcription -> AI Summarization -> Structured Clinical Summary
 
 
 # Technology Stack
 
-## Backend
-
-* Python
-* FastAPI
-
-## AI Layer
-
-* Ollama
-* Llama 3.2 (3B)
-
-## Speech-to-Text
-
-* Faster-Whisper
-
-## Audio Capture
-
-* Browser MediaRecorder API
-
-## Frontend
-
-* React
-* TypeScript
-* Vite
-
+Python, FastAPI, Ollama, Llama 3.2 (3B), Faster-Whisper, Browser MediaRecorder API, React/Vite, TypeScript
 
 # Future Enhancements
 
@@ -186,8 +88,6 @@ This project helped demonstrate practical implementation of:
 * Structured Information Extraction
 * Product Thinking and Solution Design
 * End-to-End AI Product Development
-
----
 
 # Disclaimer
 
