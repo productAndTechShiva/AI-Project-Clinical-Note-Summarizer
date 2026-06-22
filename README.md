@@ -1,6 +1,6 @@
 # AI Medical Documentation Assistant
 
-## Overview
+# Project Overview
 
 Built an AI-powered solution that converts clinical notes and voice-recorded observations into structured patient summaries. The application combines speech-to-text transcription and AI-driven summarization to generate Patient Information, Medical History, Clinical Findings and Recommendations.
 
